@@ -1,0 +1,75 @@
+/* 타입 */  
+pre{
+    text-align: center;
+}
+
+
+/* id */
+#s-id01{
+    color: hotpink;
+}
+#s-id02{
+    color: darkred;
+}
+
+
+/* class */
+.s-cls01{
+    background-color: black;
+    color: white;
+}
+
+
+/* 전체 */
+*{
+    text-align: right;
+}
+
+/* 자식 */
+#atc > p {
+    color: yellowgreen;
+}
+
+
+/* 인접 */
+span + pre {
+    background-color: cornflowerblue;
+}
+/* 같은 형제들 중에 span 태그 바로 다음에 나오는 pre 태그.
+h3 뒤에 b에 나오는 걸 지정하고 싶으면 h3+b 하면 됨 */
+
+
+/* 하위 */
+#atc02 span{
+    color: chocolate;
+}
+/* 자식선택자 없으면 atc02 밑의 span 태그 모두 선택 */
+
+
+/* 속성 */
+p[title]{
+    background-color: gray;
+}
+
+
+/* 가상 클래스 선택자 */
+a:link{
+    color: green;
+    font-size: 20pt;
+}
+a:visited{
+    color: gold;
+}
+a:hover{
+    background-color: black;
+    color: white;
+}
+a:active{
+    background-color: yellow;
+    color: tomato;
+}
+
+input:checked{
+    width:100px;
+    height: 100px;
+}
